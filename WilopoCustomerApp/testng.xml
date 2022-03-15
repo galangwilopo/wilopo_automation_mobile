@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WilopoMobileSuite">
+	<test thread-count="5" name="WilopoMobileTest">
+		<classes>
+			<class name="test.LandingPage">
+				<methods>
+					<include name="LandingPageToListArticle" />
+				</methods>
+			</class>
+			<class name="test.Register">
+				
+			</class>
+			<!-- <class name="test.LoginAndResetPassword"> 
+					<methods>
+						<exclude name="LoginFailedCustomerApp"/> 
+						<include name="LoginFailedCustomerApp" /> 
+					</methods> 
+			</class> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
